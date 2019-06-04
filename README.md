@@ -5,7 +5,7 @@ Simple program that drives the Linux iw command and scrapes the output to locate
 
 The format will look like this (brackets are included in output):
 
-[SSID][CIPHER][AUTH_SUITE]
+    [SSID][CIPHER][AUTH_SUITE]
 
 TODO: The output of Cipher and Auth Suite should be mapped to OpenWRT-type encryption definitions (e.g., 'psk2')
 
